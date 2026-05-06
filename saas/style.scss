@@ -1,0 +1,66 @@
+// =============================
+// VARIÁVEIS (reaproveitamento)
+// =============================
+
+// Cor principal (fundo da página)
+$cor-fundo: #3498db;
+
+// Cor do texto principal
+$cor-texto: #ffffff;
+
+// Cor do botão
+$cor-botao: #2ecc71;
+
+// Tamanho da fonte padrão
+$tamanho-fonte: 18px;
+
+
+// =============================
+// ESTILO DO BODY
+// =============================
+
+body {
+  background: $cor-fundo; // Usa a cor de fundo
+  font-family: Arial; // Fonte padrão
+  text-align: center; // Centraliza o conteúdo
+  padding: 50px; // Espaçamento interno
+  font-size: $tamanho-fonte; // Usa variável de tamanho
+}
+
+
+// =============================
+// ESTILO DO TÍTULO
+// =============================
+
+h1 {
+  color: $cor-texto; // Usa cor do texto
+  font-size: 32px; // Tamanho maior para destaque
+}
+
+
+// =============================
+// ESTILO DO PARÁGRAFO
+// =============================
+
+p {
+  color: $cor-texto; // Mesma cor do texto
+}
+
+
+// =============================
+// ESTILO DO BOTÃO
+// =============================
+
+button {
+  background: $cor-botao; // Cor do botão
+  color: $cor-texto; // Cor do texto do botão
+  padding: 10px 20px; // Espaçamento interno
+  border: none; // Remove borda
+  cursor: pointer; // Cursor de clique
+  font-size: 16px; // Tamanho da fonte do botão
+}
+
+form{
+    background: $cor-texto;
+    padding: 50px;
+}
