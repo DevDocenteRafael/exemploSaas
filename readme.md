@@ -1,3 +1,5 @@
+Clone o repositório primeiro e, em seguida, consulte o arquivo README para obter as instruções.
+
 Projeto Sass - Aula Completa
 
 Explicação
